@@ -28,5 +28,6 @@ int main( int argc, char *argv[] )
 	{
 		App1Dlg().exec();
 	}
+	return 0;
 }
 

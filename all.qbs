@@ -5,7 +5,7 @@ Project {
 		name: 'all'
 		builtByDefault: project.targetProj == name
 
-		Depends { name: 'app1' }
-		Depends { name: 'app2' }
+		Depends { name: 'p1' }
+		Depends { name: 'p2' }
 	}
 }

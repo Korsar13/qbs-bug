@@ -9,14 +9,6 @@ Project {
 		Depends { name: 'Qt.widgets' }
 		
 		files: ['m2.cpp','m2.ui','m2.h']
-
-		Group {
-			fileTagsFilter: ['qm']
-			fileTags: ['qt.core.resource_data']
-			overrideTags: false
-			Qt.core.resourcePrefix: '/translate'
-		}
-		Qt.core.resourceFileBaseName: targetName + '_qm'
 	}
 	
 	Product {
